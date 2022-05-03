@@ -5,19 +5,10 @@ Tutorials for begginers 2022
 ### HTML - is the standard markup language for creating Web pages.t is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript. (HTML - Hyper Text Markup Language)!
 ### HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web. Each page contains a series of connections to other pages called hyperlinks. Every web page you see was written using one version of HTML.
 ## A Simple HTML Document:
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+![Снимок экрана (123)](https://user-images.githubusercontent.com/86709653/166510563-64a4066f-8f24-49fd-b8bc-4ecfa075c80d.png)
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-</body>
-</html>
 ### FREE CONTENT for learn HTML!:
+
 ### https://www.w3schools.com/
 ### https://www.codecademy.com/
 ### https://developer.mozilla.org/ru/
