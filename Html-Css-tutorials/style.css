@@ -1,0 +1,451 @@
+/* CSS Crash Course */
+/* Css start */
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Hachi+Maru+Pop&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Nunito:ital,wght@0,400;0,700;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,100;1,200;1,400&display=swap');
+
+body{
+    margin: 10px 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Aldrich";
+}
+
+.font-p{
+    font-family: "Ink Free", "MV Boli", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    /* text-decoration: line-through; */
+    /* text-decoration: underline wavy blue; */
+    text-decoration: normal;
+    color: indigo;
+    background-color: #112;
+}
+
+.font-container{
+    padding: 5px 2px;
+    background-color: #111;
+    color: #00aa00;
+}
+
+.border-container{
+    margin: 5px 5px;
+    padding: 5px 5px;
+    background-color: #111;
+    color: azure;
+}
+
+.border-p{
+    padding: 5px;
+    border-style: solid;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: ridge;
+    border-style: groove;
+    border-style: inset;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #00aa00;
+    border-radius: 5px;
+}
+
+.heading-3{
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-color: aliceblue;
+}
+
+.container-back{
+    background-image: url(./Без\ названия.jfif);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 7px 5px;
+    /* background: linear-gradient(grey,black);
+    background-size: cover;
+    */
+}
+
+.heading-4{
+    background: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+
+.background-p{
+    background: linear-gradient(to left, grey, black);
+}
+
+.heading-5{
+    border: 1px solid;
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+#p1-mar{
+    border: 1px solid;
+    width: 250px;
+    padding: 25px;
+    margin: 25px;
+}
+
+#p2-mar{
+    margin-top: 25px;
+    margin-right: 75px;
+    margin-bottom: 25px;
+    margin-left: 75px;
+    margin: 25px 75px 25px 75px;
+    border: 1px solid;
+    width: 250px;
+    padding: 25px;
+}
+
+#p3-mar{
+    margin: 20%; 
+    border: 1px solid;
+    width: 250px;
+    padding: 25px;
+}
+
+#p4-mar{
+    margin-left: auto;
+    border: 1px solid;
+    width: 250px;
+    padding: 25px;
+}
+
+#p5-mar{
+    margin-right: auto;
+    border: 1px solid;
+    width: 250px;
+    padding: 25px;
+}
+
+#p6-mar{
+    margin: auto;
+    border: 1px solid;
+    width: 250px;
+    padding: 25px;
+}
+
+
+#shadow-h1{
+    border: 1px solid;
+    width: 250px;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    border-color: black;
+    text-shadow: 0px 0px 5px yellow, 0px -5px 5px;
+    box-shadow:  10px 10px 5px #999; 
+}
+
+#a_pse:link{
+    color: #78ffd0;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+#a_pse:visited{
+    color: #d359ff;
+}
+
+#a_pse:hover{
+    background-color: #111;
+    color: #00aa00;
+    transition: .4s;
+    border-radius: 3px;
+}
+
+button:hover{
+    background: #ff4529;
+    color: white;
+    transform: translateX(10px);
+    transition: .4s;
+}
+
+button:active{
+    background-color: #d13b24;
+}
+
+/* li:first-child{
+    background-color: #93ff7d;
+}
+
+li:last-child{
+    background-color: #93ff7d;
+} */
+
+/* li:nth-child(3){
+    background-color: #93ff7d;
+} */
+
+/* li:nth-child(odd){
+    background-color: #93ff7d;
+}
+
+li:nth-child(even){
+    background-color: #caffbf;
+} */
+
+li:nth-child(odd){
+    /*  */
+    background-image: linear-gradient(to right, #fff421,#fff);
+    opacity: 0.5px;
+    border: 1px solid;
+}
+
+.container-pos p{
+    border: 1px solid;
+    width: 250px;
+}
+
+#pos-p1{
+    text-align: left;
+}
+
+#pos-p2{
+    text-align: center;
+}
+
+#pos-p3{
+    text-align: right;
+}
+
+
+.container-pos2 img{
+    float: left;
+    margin: 5px;
+}
+
+.container-pos2{
+    border: 1px solid;
+    width: 150px;
+}
+
+
+#fix-h1{
+    border: 1px solid;
+    background: #111;
+    color: #00aa00;
+
+    /* fixed in place within viewport */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#rel-h1{
+    border: 1px solid;
+    background: #111;
+    color: #00aa00;
+
+    /* relative to it's normal position */
+    position: relative;
+    bottom: 50px;
+}
+
+
+#stick-h1{
+    border: 1px solid;
+    background: #111;
+    color: #00aa00;
+
+    /* sticks to viewport when scrolling */
+    position: sticky;
+    top: 0px;
+}
+
+#static-h1 {
+    border: 1px solid;
+    background: #111;
+    color: #00aa00;
+
+    /* default */
+    position: static;
+    top: 0px;
+}
+
+
+#box1{
+    position: relative;
+    background-color: lightgrey;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box2{
+    position: absolute;
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+
+    top:50px;
+    left: 50px;
+}
+
+.trans-p p{
+    width: 100px;
+    background: red;
+    font-size: 85px;
+    text-align: center;
+    margin: 0px;
+}
+
+#p2-tra{
+    /* transform: translateX(50px); */
+    /* transform: translateY(50px); */
+    /* transform: translate(50px, 50px); */
+    /* transform: rotateX(180deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: rotateZ(180deg); */
+    /* transform: rotate(180deg); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(0.5); */
+    /* transform: scale(2,2); */
+    /* transform: skewY(45deg); */
+    /* transform: skewX(45deg); */
+
+    transform: matrix(0.5,1,1,0.5,50,50);
+    /* 
+        skaleX(),
+        skewY(),
+        skewX(),
+        scaleY(),
+        translateX(),
+        translateY()
+    */
+}
+
+
+#anim-p{
+    width: 100px;
+    height: 100px;
+    background: red;
+    font-size: 85px;
+    text-align: center;
+    margin: 0px;
+
+}
+
+#anim-p:hover{
+    animation: myFont;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myColorAnimation{
+    /* from{background-color: red;}
+    to{background-color: blue;}     */
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: blue;}
+    100%{background-color: purple;}
+}
+
+@keyframes myRotateAnimation{
+    100%{transform: rotateX(360deg);}
+    100%{transform: rotateY(360deg);}
+    100%{transform: rotateZ(360deg);}
+}
+
+@keyframes myTranslate{
+    50%{transform: translate(100px,0);}
+    50%{transform: translate(0,100px);}
+    50%{transform: translate(100px,100px);}
+}
+
+@keyframes myScale{
+    50%{transform: scale(0.5,0.5);}
+}
+
+@keyframes myOpacity{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@keyframes myFont{
+    0%{font-size: 85px;}
+    50%{font-size: 400px;}
+    100%{font-size: 85px;}
+}
+
+
+/* Navigation Bar Css */
+.nav-ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #444;
+}
+
+#nav-li a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid black;
+    min-width: 60px;
+}
+
+#nav-li a:hover{
+    background-color: #222;
+
+    animation: myGrowAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myGrowAnimation{
+    50% {text-shadow: 0px 0px 10px yellow;}
+}
+
+
+.flex-demo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #444;
+    /* flex-direction: column-reverse;
+    width: 110px; */
+
+    /* justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-between; */
+
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-demo div{
+    color: #00aa00;
+    height: 100px;
+    width: 100px;
+    background-color: #111;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    margin: 5px;
+}
+
+.fa-home{
+    color: #00aa00;
+}
+
+.fa-youtube{
+    color: #111;
+}
